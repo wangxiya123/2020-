@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/payment/payment",
+    "pages/my/my"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/my/my",
+        "text": "用户中心",
+        "iconPath": "/images/userCenter.png",
+        "selectedIconPath": "/images/userCenter-selected.png"
+      },
+      {
+        "pagePath": "pages/payment/payment",
+        "text": "支付",
+        "iconPath": "/images/payment.png",
+        "selectedIconPath": "/images/payment-selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap39.json"
+}
