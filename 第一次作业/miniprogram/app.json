@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/xuexi/xuexi",
+    "pages/shixi/shixi"
+  ],
+  "window": {
+   "backgroundColor": "#F6F6F6",
+   "backgroundTextStyle": "light",
+   "navigationBarBackgroundColor": "#F00",
+   "navigationBarTitleText": "王茜亚学习经历和实习履历",
+   "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#f00",
+    "list": [{
+        "pagePath": "pages/xuexi/xuexi",
+        "text": "学习经历",
+        "iconPath": "images/xuexi.png",
+        "selectedIconPath": "images/xuexi-actived.png"
+      },
+      {
+        "pagePath": "pages/shixi/shixi",
+        "text": "实习履历",
+        "iconPath": "images/shixi.png",
+        "selectedIconPath": "images/shixi-actived.png"
+      }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
