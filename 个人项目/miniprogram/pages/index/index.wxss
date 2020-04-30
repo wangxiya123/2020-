@@ -1,0 +1,35 @@
+.container{
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-around
+  
+}
+image{
+  height: 100rpx;
+  width: 220rpx
+}
+.detail{
+  width: 100%;
+  display: flex;
+  flex-direction: column
+
+}
+.bar{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ /* margin:设置外边距尺寸 */
+ margin: 20rpx
+}
+.box{
+ width:  33.3%;
+ text-align: center 
+
+}
+
+text{
+ font-size: 80rpx;
+ color: blue
+}
