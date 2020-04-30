@@ -1,0 +1,25 @@
+<view>{{msg}}</view>
+<image src="{{img}}"></image>
+<text>不过，说真的，真是很难喔！！</text>
+
+
+<view class="section">
+  <view class="section__title">movable-view区域小于movable-area</view>
+  <movable-area style="height: 300px; width: 300px; background: red;">
+    <movable-view style="height: 150px; width: 150px; background: blue;" x="{{x}}" y="{{y}}" direction="all">
+    </movable-view>
+  </movable-area>
+  <view class="btn-area">
+    <button size="mini" bindtap="tap">click me to move to (80px, 80px)</button>
+  </view>
+  <view class="section__title">movable-view区域大于movable-area</view>
+  <movable-area style="height: 100px; width: 100px; background: red;">
+    <movable-view style="height: 400px; width: 400px; background: blue;" direction="all">
+    </movable-view>
+  </movable-area>
+  <view class="section__title">可放缩</view>
+  <movable-area style="height: 300px; width: 300px; background: red;" scale-area>
+    <movable-view style="height: 10px; width: 10px; background: blue;" direction="all" bindchange="onChange" bindscale="onScale" scale scale-min="0.5" scale-max="4" scale-value="2">
+    </movable-view>
+  </movable-area>
+</view>
